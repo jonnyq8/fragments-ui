@@ -1,0 +1,36 @@
+{
+  "name": "fragments-ui",
+  "source": "src/index.html",
+  "private": true,
+  "version": "0.0.1",
+  "targets": {
+    
+  },
+  "description": "Fragments UI testing web app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyq8/fragments-ui.git"
+  },
+  "author": "Jonathan Forrester <jforrester4@myseneca.ca>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "aws-amplify": "^4.3.35",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "nodemon": "^2.0.20",
+    "parcel": "^2.7.0",
+    "pino": "^8.5.0",
+    "pino-http": "^8.2.0",
+    "pino-pretty": "^9.1.0",
+    "prettier": "^2.7.1",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1"
+  }
+}
